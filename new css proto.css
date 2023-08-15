@@ -1,0 +1,169 @@
+head{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: #163246;
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    background-color: yellowgreen;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;  
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #163246;
+}
+.Home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.Home-content{
+    background-color: transparent;
+    max-width: 600px;
+}
+.Home-content h1{
+    padding: 0 10%;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.Home-content p{
+    font-size: 15px;
+}
+.Home-content .btn-box{
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 50px;
+}
+.btn-box a{
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 19px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    padding: 0 20%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.label{
+    padding: 0 20%;
+}
+.label .big{
+    border-radius: 8px;
+}
+.input{
+    margin-top: 10px;
+    display:flex;
+    border: 2px;
+    border-radius: 8px;
+    background: #00abf0;
+    font-size: 15px;
+}
+.work{
+    padding: 0 20%;
+    justify-content: center;
+}
+.work h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #00abf0;
+}   
+.work h4{
+        font-size: 20px;
+        font-weight: 700; 
+}
+
+
+.youtube, h4,p{
+
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 20%;
+}
+h2{
+    padding: 0 20%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #00abf0;
+
+}
+footer{
+    
+    top: 0%;
+    left: 0%;
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    
+    font-size: 17px;
+}
+footer a{
+    justify-content: space-between;
+    
+}
+footer img{
+    border-radius: 20px;
+}
+.web img{
+    padding: 0 20px;
+    margin-top: 100px;
+    display: inline;
+    width: 900px;
+    height: 310px;
+    object-fit: cover;
+}
+ol{
+    padding: 0 20%;
+}
+.link a{
+    text-decoration: none;
+}
+iframe{
+    padding: 0 20%;
+}
